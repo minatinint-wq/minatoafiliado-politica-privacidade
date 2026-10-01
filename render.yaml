@@ -1,0 +1,7 @@
+services:
+  - type: web
+    runtime: static
+    name: minatoafiliado-politica-privacidade
+    staticPublishPath: ./public
+    buildCommand: ""
+    autoDeployTrigger: commit
